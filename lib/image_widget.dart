@@ -10,12 +10,15 @@ class ImageWidgets extends StatelessWidget {
         ),
         body: Center(
           child: Container(
+            color: Colors.blue,
             width: 700,
             height: 700,
             padding: EdgeInsets.all(3),
             child: Image(
-              image: NetworkImage(
-                  "https://miro.medium.com/max/700/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"),
+              image: AssetImage(
+                  "images/sketch.png"),
+              fit: BoxFit.contain,
+              repeat: ImageRepeat.repeat,
             ),
           ),
         ),
