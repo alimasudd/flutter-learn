@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_testing/animated_container.dart';
 import 'package:flutter_testing/anonymous_method_test.dart';
 import 'package:flutter_testing/container_test.dart';
+import 'package:flutter_testing/draggable.dart';
 import 'package:flutter_testing/flexible_widgets.dart';
 import 'package:flutter_testing/image_widget.dart';
 import 'package:flutter_testing/list_listview_test.dart';
@@ -15,7 +16,7 @@ import 'package:flutter_testing/stateful_test.dart';
 import 'package:flutter_testing/textstyle_test.dart';
 import 'package:http/http.dart' as http;
 
-void main() => runApp(SpacerWidgetsTest());
+void main() => runApp(DraggableTest());
 
 class MyApp extends StatelessWidget {
   @override
