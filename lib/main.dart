@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_testing/animated_container.dart';
 import 'package:flutter_testing/anonymous_method_test.dart';
+import 'package:flutter_testing/appbar_gradasi.dart';
 import 'package:flutter_testing/container_test.dart';
 import 'package:flutter_testing/draggable.dart';
 import 'package:flutter_testing/flexible_widgets.dart';
@@ -17,7 +18,7 @@ import 'package:flutter_testing/stateful_test.dart';
 import 'package:flutter_testing/textstyle_test.dart';
 import 'package:http/http.dart' as http;
 
-void main() => runApp(MultiPage());
+void main() => runApp(AppBarGradasi());
 
 class MyApp extends StatelessWidget {
   @override
