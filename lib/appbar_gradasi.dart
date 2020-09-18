@@ -8,6 +8,9 @@ class AppBarGradasi extends StatefulWidget {
 
 class _AppBarGradasiState extends State<AppBarGradasi> {
   @override
+
+  String textMe = "Sentuh Aku";
+
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
@@ -39,8 +42,17 @@ class _AppBarGradasiState extends State<AppBarGradasi> {
                 image: DecorationImage(
                     image: AssetImage("images/pattern.png"),
                     fit: BoxFit.none,
-                    repeat: ImageRepeat.repeat)
-            ),
+                    repeat: ImageRepeat.repeat)),
+          ),
+        ),
+        body: Center(
+          child: RaisedButton(
+            child: Text(textMe),
+            color: Colors.blue,
+            textColor: Colors.white,
+            onPressed: (){setState(() {
+              textMe = "Yessss";
+            });},
           ),
         ),
       ),
