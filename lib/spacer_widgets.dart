@@ -30,6 +30,12 @@ class SpacerWidgetsTest extends StatelessWidget {
                 height: 80,
                 color: Colors.yellow,
               ),
+              Spacer(flex: 2,),
+              Container(
+                width: 80,
+                height: 80,
+                color: Colors.yellow,
+              ),
               Spacer(flex: 2,)
             ],
           ),
