@@ -23,6 +23,7 @@ void main() => runApp(AppBarGradasi());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    //main
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(

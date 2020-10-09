@@ -13,7 +13,7 @@ class _StatefulTestState extends State<StatefulTest> {
       number = number + 1;
     });
   }
-
+//stateful
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
